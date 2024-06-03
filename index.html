@@ -22,14 +22,14 @@
                 <p class="text-gray-300 text-center mt-4">Your AI-powered habit tracker with habit stacking and more!</p>
                 <div class="flex flex-col items-center space-y-4 mt-24">
                     <p class="text-gray-300 uppercase text-sm">Notify me when it's ready</p>
-                    <form class="w-full flex items-center">
+                    <form action="https://api.formslite.io/submission/" method="POST" class="w-full flex items-center">
                         <input type="hidden" name="access_key" value="7635e501-9046-478b-a397-c5c2e03fc3b5">
                         <input type="email" name="email" id="email" class="w-72 p-2 border-gray-300 focus:outline-none focus:ring-0 focus:border-gray-300 rounded-tl rounded-bl text-sm" placeholder="Email" autocomplete="off">
                         <button class="bg-blue-600 hover:bg-blue-700 py-2 px-6 text-gray-100 border border-blue-600 rounded-tr rounded-br text-sm">Subscribe</button>
                     </form>
                 </div>
             </div>
-            <div class="w-full flex items-center justify-center">
+            <div class="hidden w-full flex items-center justify-center">
                 <ul class="flex items-center space-x-4">
                     <li>
                         <a href="#" title="Facebook">
